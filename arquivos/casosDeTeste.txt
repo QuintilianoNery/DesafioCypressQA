@@ -1,23 +1,22 @@
 Teste A
-- Inclusão de um produto no carrinho
-- Exclusão de um produto no carrinho
-- Inclusão de produto no carrinho com escolha de mais produtos (Incluir os três produtos)
+- Inclusão de um produto no cesta
+- Inclusão de um produto no cesta com exclusão de produto
+- Inclusão de produto no cesta com escolha de mais produtos (Incluir os três produtos)
 - Validação da tela inicial do site
 - Validação da tela de seleção de produtos
 - Validação da tela do produto
 - Validação da tela de seguro do produto
-- Validação da tela meu carrinho
+- Validação da tela meu cesta
 - Validação de todos os campos possíveis do fluxo
 
 
 
 Teste B
-- Incluir desultados com cypress em uma planilha
+- Incluir resultados com cypress em uma planilha
         Site de compras
         Nome do produto
         Valor á vista
         Valor do cashback
-
 
 
 (Se der tempo fazer)
