@@ -1,0 +1,23 @@
+{
+  "name": "desafioqa",
+  "version": "1.0.0",
+  "description": "Desafio QA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuintilianoNery/DesafioQA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuintilianoNery/DesafioQA/issues"
+  },
+  "homepage": "https://github.com/QuintilianoNery/DesafioQA#readme",
+  "keywords": [],
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
+}
