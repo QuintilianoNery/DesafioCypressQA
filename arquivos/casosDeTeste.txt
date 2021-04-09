@@ -1,10 +1,39 @@
-- Criar cenários de testes com automação no cypress
-- Validação de todos os campos possíveis
-- Validação do total
-- Inclusão
-- Exclusão do carrinho
+Teste A
+- Inclusão de um produto no carrinho
+- Exclusão de um produto no carrinho
+- Inclusão de produto no carrinho com escolha de mais produtos (Incluir os três produtos)
+- Validação da tela inicial do site
+- Validação da tela de seleção de produtos
+- Validação da tela do produto
+- Validação da tela de seguro do produto
+- Validação da tela meu carrinho
+- Validação de todos os campos possíveis do fluxo
 
-- Se der tempo configurar no formato de page opbjects
+
+
+Teste B
+- Incluir desultados com cypress em uma planilha
+        Site de compras
+        Nome do produto
+        Valor á vista
+        Valor do cashback
+
+
+
+(Se der tempo fazer)
+- Validação da tela de login
+- Validação da tela de pagamento 
+- Validação da tela de pagamento com Ame
+- Validação da tela de pagamento com cartão de crédito
+- Validação da tela de pagamento com cartão de crédito parcelado
+- Validação da tela de pagamento com boleto
+- Validação da tela de pagamento com pague na loja
+- Validação da tela de pagamento com PIX
+- Validar total não evetuando o pagamento
+- Validaçaõ do rodapé
+
+
 - Se der tempo configurar relatório allure report
 - Se der tempo configurar CI para relatório de cobertura e informar na documentação
+- Se der tempo configurar no formato de page opbjects
 - Se der tempo incluir técnicas de cucumber BDD em outro branch

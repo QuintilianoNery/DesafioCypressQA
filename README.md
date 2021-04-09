@@ -42,7 +42,7 @@ OBS: Instalação da versão 6.8.0 pois está bem estável. Outro motivo é que 
 
 ### Tópicos da resolução
 
-- Site de compras utilizado: [Americanas.com.br](https://www.americanas.com.br/)
+- Site de compras utilizado: [Americanas.com.br](https://www.americanas.com.br)
 - Casos de teste criados: [Casos de teste](https://github.com/QuintilianoNery/DesafioQA/blob/origin/arquivos/casosDeTeste.txt)
 
 
