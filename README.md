@@ -3,9 +3,9 @@
 Repositório específico para realizar os testes do desafio de Analista de Testes da empresa [Paschoalotto](https://www.paschoalotto.com.br/).
 ## Configurando o Ambiente :gear:
 
-[Cypress.io](http://automationpractice.com/index.php)
+- [Cypress.io](http://automationpractice.com/index.php)
 
-[Documentação Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
+- [Documentação Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
 
 ### Requisitos para instalação
 
