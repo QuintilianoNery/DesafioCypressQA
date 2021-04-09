@@ -1,14 +1,11 @@
 # Projeto: DesafioQA utilizando Cypress
 
-Repositório específico para realizar os testes do desafio de Analista de Testes da empresa Paschoalotto.
-
-[Paschoalotto](https://www.paschoalotto.com.br/)
+Repositório específico para realizar os testes do desafio de Analista de Testes da empresa [Paschoalotto](https://www.paschoalotto.com.br/).
+## Configurando o Ambiente :gear:
 
 [Cypress.io](http://automationpractice.com/index.php)
 
 [Documentação Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
-## Configurando o Ambiente :gear:
-
 
 ### Requisitos para instalação
 
