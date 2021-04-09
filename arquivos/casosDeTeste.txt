@@ -1,0 +1,10 @@
+- Criar cenários de testes com automação no cypress
+- Validação de todos os campos possíveis
+- Validação do total
+- Inclusão
+- Exclusão do carrinho
+
+- Se der tempo configurar no formato de page opbjects
+- Se der tempo configurar relatório allure report
+- Se der tempo configurar CI para relatório de cobertura e informar na documentação
+- Se der tempo incluir técnicas de cucumber BDD em outro branch
