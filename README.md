@@ -1,9 +1,13 @@
-# Projeto: DesafioQA utilizando Cypress
+<h1 align="center">Projeto: DesafioQA utilizando Cypress </h1>
+<p align="center">Repositório específico para realizar os testes do desafio de Analista de Testes da empresa [Paschoalotto](https://www.paschoalotto.com.br/).</p>
 
-Repositório específico para realizar os testes do desafio de Analista de Testes da empresa [Paschoalotto](https://www.paschoalotto.com.br/).
+<p align="center"><img src="DesafioQA.png" width="100%"/></p>
+
+--------
+
 ## Configurando o Ambiente :gear:
 
-- [Cypress.io](http://automationpractice.com/index.php)
+- [Cypress.io](http://www.cypress.io)
 
 - [Documentação Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
 
@@ -37,12 +41,10 @@ OBS: Instalação da versão 6.8.0 pois está bem estável. Outro motivo é que 
 ```shell
    npx cypress run
 ```
-
+-----
 ## Desafio
 
 ### Tópicos da resolução
 
-- Site de compras utilizado: [Americanas.com.br](https://www.americanas.com.br)
+- Site de compras utilizado: [Americanas.com.br](http://automationpractice.com/)
 - Casos de teste criados: [Casos de teste](https://github.com/QuintilianoNery/DesafioQA/blob/origin/arquivos/casosDeTeste.txt)
-
-
