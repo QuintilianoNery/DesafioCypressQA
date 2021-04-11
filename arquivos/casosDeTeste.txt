@@ -1,13 +1,16 @@
 Teste A
-- Inclusão de um produto no cesta
-- Inclusão de um produto no cesta com exclusão de produto
-- Inclusão de produto no cesta com escolha de mais produtos (Incluir os três produtos)
+- Inclusão de produto no carrinho com conclusão de pedido - OK
+- Inclusão de um produto no carrinho com exclusão de produto - OK
+- Inclusão de produto no carrinho com escolha de mais produtos (Incluir os três produtos)
 - Validação da tela inicial do site
 - Validação da tela de seleção de produtos
 - Validação da tela do produto
 - Validação da tela de seguro do produto
-- Validação da tela meu cesta
+- Validação da tela meu carrinho
 - Validação de todos os campos possíveis do fluxo
+
+
+Inclusão de pedido com verificação do ID do pedido
 
 
 
