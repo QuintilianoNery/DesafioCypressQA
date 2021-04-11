@@ -206,6 +206,11 @@ describe('Produtos no carrinho da Automationpractice', () => {
         cy.get('a[id="1_1_0_0"]')
             .click()
 
+
+        cy.get('p[class="alert alert-warning"]')
+            .should('have.text', 'Your shopping cart is empty.')
+            .should('contain', 'Your shopping cart is empty.')
+
     });
 
 });
