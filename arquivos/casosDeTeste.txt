@@ -1,7 +1,20 @@
 Teste A
 - Inclusão de produto no carrinho com conclusão de pedido - OK
 - Inclusão de um produto no carrinho com exclusão de produto - OK
-- Inclusão de produto no carrinho com escolha de mais produtos (Incluir os três produtos)
+- Inclusão de produto no carrinho com escolha de mais produtos - OK
+- Exclusão dos produtos do carrinho, com tentativa de finalizar checkout.
+-Inclusão de produtos no cartrinho, inserindo resultados em uma planilha (Teste B)
+
+//Tenho que fazer 
+- Se der tempo configurar relatório allure report
+- Se der tempo configurar CI para relatório de cobertura e informar na documentação
+
+
+//Não estou conseguindo fazer
+Inclusão de pedido com verificação do ID do pedido
+
+
+//pretendo fazer, mas já realizei algumas validações na inclusão
 - Validação da tela inicial do site
 - Validação da tela de seleção de produtos
 - Validação da tela do produto
@@ -10,7 +23,6 @@ Teste A
 - Validação de todos os campos possíveis do fluxo
 
 
-Inclusão de pedido com verificação do ID do pedido
 
 
 
@@ -23,19 +35,8 @@ Teste B
 
 
 (Se der tempo fazer)
-- Validação da tela de login
-- Validação da tela de pagamento 
-- Validação da tela de pagamento com Ame
-- Validação da tela de pagamento com cartão de crédito
-- Validação da tela de pagamento com cartão de crédito parcelado
-- Validação da tela de pagamento com boleto
-- Validação da tela de pagamento com pague na loja
-- Validação da tela de pagamento com PIX
-- Validar total não evetuando o pagamento
 - Validaçaõ do rodapé
 
 
-- Se der tempo configurar relatório allure report
-- Se der tempo configurar CI para relatório de cobertura e informar na documentação
 - Se der tempo configurar no formato de page opbjects
 - Se der tempo incluir técnicas de cucumber BDD em outro branch
