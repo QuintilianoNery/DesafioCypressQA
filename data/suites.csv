@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Apr 12 01:21:29 GMT 2021","Mon Apr 12 01:21:39 GMT 2021","10188","","Produtos no carrinho da Automationpractice","","","","Inclusão de um produto no carrinho com exclusão de produto",""
-"passed","Mon Apr 12 01:21:04 GMT 2021","Mon Apr 12 01:21:28 GMT 2021","24559","","Produtos no carrinho da Automationpractice","","","","Inclusão de produto no carrinho com conclusão de pedido",""
-"passed","Mon Apr 12 01:21:39 GMT 2021","Mon Apr 12 01:22:00 GMT 2021","21169","","Produtos no carrinho da Automationpractice","","","","Inclusão de produto no carrinho com escolha de mais produtos",""
+"passed","Mon Apr 12 01:30:01 GMT 2021","Mon Apr 12 01:30:27 GMT 2021","25502","","Produtos no carrinho da Automationpractice","","","","Inclusão de produto no carrinho com conclusão de pedido",""
+"passed","Mon Apr 12 01:30:27 GMT 2021","Mon Apr 12 01:30:35 GMT 2021","8800","","Produtos no carrinho da Automationpractice","","","","Inclusão de um produto no carrinho com exclusão de produto",""
+"passed","Mon Apr 12 01:30:36 GMT 2021","Mon Apr 12 01:30:57 GMT 2021","21751","","Produtos no carrinho da Automationpractice","","","","Inclusão de produto no carrinho com escolha de mais produtos",""

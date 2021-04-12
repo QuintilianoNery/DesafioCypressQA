@@ -4,39 +4,39 @@
     "name" : "Produtos no carrinho da Automationpractice",
     "children" : [ {
       "name" : "Inclusão de produto no carrinho com conclusão de pedido",
-      "uid" : "b71fcf7be78d5ceb",
+      "uid" : "abfbbb68e005614e",
       "parentUid" : "fa566ed9dac06d195477416a7063b4f6",
       "status" : "passed",
       "time" : {
-        "start" : 1618190464374,
-        "stop" : 1618190488933,
-        "duration" : 24559
+        "start" : 1618191001537,
+        "stop" : 1618191027039,
+        "duration" : 25502
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Inclusão de um produto no carrinho com exclusão de produto",
-      "uid" : "a36fa94156545409",
+      "uid" : "cfbd86c7912caea1",
       "parentUid" : "fa566ed9dac06d195477416a7063b4f6",
       "status" : "passed",
       "time" : {
-        "start" : 1618190489099,
-        "stop" : 1618190499287,
-        "duration" : 10188
+        "start" : 1618191027155,
+        "stop" : 1618191035955,
+        "duration" : 8800
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
-      "uid" : "3e76dcb8e9b64254",
+      "uid" : "6f2383e8bc5698e9",
       "parentUid" : "fa566ed9dac06d195477416a7063b4f6",
       "status" : "passed",
       "time" : {
-        "start" : 1618190499431,
-        "stop" : 1618190520600,
-        "duration" : 21169
+        "start" : 1618191036039,
+        "stop" : 1618191057790,
+        "duration" : 21751
       },
       "flaky" : false,
       "newFailed" : false,
