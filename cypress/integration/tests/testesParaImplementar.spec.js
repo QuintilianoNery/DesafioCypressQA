@@ -1,4 +1,4 @@
-describe('', () => {
+describe.skip('', () => {
     it('Inclusão de produto no carrinho e verificar seu código na lista de pedidos', () => {
         //comando personalizado em supports/commands
         cy.backgroundLogin();
@@ -116,7 +116,7 @@ describe('', () => {
 });
 
 
-describe('Produtos no carrinho da Automationpractice', () => {
+describe.skip('Produtos no carrinho da Automationpractice', () => {
     //Caso de teste individual
     it('Inclusão de pedido com verificação do ID do pedido ', () => {
         //comando personalizado em supports/commands
