@@ -1,8 +1,14 @@
+- O Melhor cenário para se criar os testes, seria para cada testes, o sistema não deveria depender de outro teste, no caso refazer todo o passo a passo apra testar uma determinada Página, com isso usa-se mocks, passando os dados necessários e acessando diretamente a URl, ou API. Porém devido ao tempo, fiz de uma forma mais simples para conseguir abordar mais testes e mais configurações que tenho conhecimento e que são importante serem implantados em um projeto
+- Outro ponto importante a se identificar, seria configurar as rotas, para conseguir fazer os testes com uso nas APIs
+
+
+
+-------
+
 Teste A
-- Inclusão de produto no carrinho com conclusão de pedido - OK
-- Inclusão de um produto no carrinho com exclusão de produto - OK
-- Inclusão de produto no carrinho com escolha de mais produtos - OK
-- Exclusão dos produtos do carrinho, com tentativa de finalizar checkout.
+- Inclusão de produto no carrinho com conclusão de pedido - FEITO OK
+- Inclusão de um produto no carrinho com exclusão de produto - FEITO OK
+- Inclusão de produto no carrinho com escolha de mais produtos - FEITO OK
 -Inclusão de produtos no cartrinho, inserindo resultados em uma planilha (Teste B)
 
 //Tenho que fazer 
@@ -13,19 +19,6 @@ Teste A
 //Não estou conseguindo fazer
 Inclusão de pedido com verificação do ID do pedido
 
-
-//pretendo fazer, mas já realizei algumas validações na inclusão
-- Validação da tela inicial do site
-- Validação da tela de seleção de produtos
-- Validação da tela do produto
-- Validação da tela de seguro do produto
-- Validação da tela meu carrinho
-- Validação de todos os campos possíveis do fluxo
-
-
-
-
-
 Teste B
 - Incluir resultados com cypress em uma planilha
         Site de compras
@@ -33,10 +26,4 @@ Teste B
         Valor á vista
         Valor do cashback
 
-
-(Se der tempo fazer)
-- Validaçaõ do rodapé
-
-
 - Se der tempo configurar no formato de page opbjects
-- Se der tempo incluir técnicas de cucumber BDD em outro branch
