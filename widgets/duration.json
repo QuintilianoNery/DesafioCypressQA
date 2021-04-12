@@ -1,0 +1,31 @@
+[ {
+  "uid" : "a36fa94156545409",
+  "name" : "Inclusão de um produto no carrinho com exclusão de produto",
+  "time" : {
+    "start" : 1618190489099,
+    "stop" : 1618190499287,
+    "duration" : 10188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b71fcf7be78d5ceb",
+  "name" : "Inclusão de produto no carrinho com conclusão de pedido",
+  "time" : {
+    "start" : 1618190464374,
+    "stop" : 1618190488933,
+    "duration" : 24559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e76dcb8e9b64254",
+  "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
+  "time" : {
+    "start" : 1618190499431,
+    "stop" : 1618190520600,
+    "duration" : 21169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Produtos no carrinho da Automationpractice",
+    "children" : [ {
+      "name" : "Inclusão de produto no carrinho com conclusão de pedido",
+      "uid" : "b71fcf7be78d5ceb",
+      "parentUid" : "fa566ed9dac06d195477416a7063b4f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618190464374,
+        "stop" : 1618190488933,
+        "duration" : 24559
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Inclusão de um produto no carrinho com exclusão de produto",
+      "uid" : "a36fa94156545409",
+      "parentUid" : "fa566ed9dac06d195477416a7063b4f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618190489099,
+        "stop" : 1618190499287,
+        "duration" : 10188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
+      "uid" : "3e76dcb8e9b64254",
+      "parentUid" : "fa566ed9dac06d195477416a7063b4f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618190499431,
+        "stop" : 1618190520600,
+        "duration" : 21169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fa566ed9dac06d195477416a7063b4f6"
+  } ],
+  "name" : "suites"
+}
