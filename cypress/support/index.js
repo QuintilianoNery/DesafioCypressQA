@@ -24,4 +24,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     // failing the test
     return false
   })
+
+  import '@shelex/cypress-allure-plugin';
+  require('@shelex/cypress-allure-plugin');
   
