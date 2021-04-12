@@ -43,8 +43,9 @@ OBS: Instalação da versão 6.8.0 pois está bem estável. Outro motivo é que 
 ```
 -----
 ## Desafio
-
-### Tópicos da resolução
+- A. Buscar três produtos em um site de compras da sua escolha
+- B. Inserir o resultado em uma planilha
+### Resultados obtidos no desafio
 
 - Site de compras utilizado: [automationpractice.com](http://automationpractice.com/)
 - Casos de teste criados: [Casos de teste](https://github.com/QuintilianoNery/DesafioQA/blob/origin/arquivos/casosDeTeste.txt)
