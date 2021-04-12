@@ -1,29 +1,33 @@
-- O Melhor cenário para se criar os testes, seria para cada testes, o sistema não deveria depender de outro teste, no caso refazer todo o passo a passo apra testar uma determinada Página, com isso usa-se mocks, passando os dados necessários e acessando diretamente a URl, ou API. Porém devido ao tempo, fiz de uma forma mais simples para conseguir abordar mais testes e mais configurações que tenho conhecimento e que são importante serem implantados em um projeto
-- Outro ponto importante a se identificar, seria configurar as rotas, para conseguir fazer os testes com uso nas APIs
+Organizar projeto:
+- Criar testes base - OK
+- Criar teste que insira resultado em uma planilha (Específico)
+- Criar testes que gere valor para o "produto" projeto - Análise de risco
+- Criar relatório Allure - OK
+- Criar CI - OK
+- Criar Cypress dashboard - OK
 
-
-
--------
 
 Teste A
 - Inclusão de produto no carrinho com conclusão de pedido - FEITO OK
+        - Este teste foi realizado para identificar o "Caminho feliz" de um processo completo de compras.
+
 - Inclusão de um produto no carrinho com exclusão de produto - FEITO OK
+        - Este teste foi criado para validar a inclusão normal de um produto no carrinho seguido da exclusão, o que pode ocorrer com noemalidade em um fluxo de compras
+
 - Inclusão de produto no carrinho com escolha de mais produtos - FEITO OK
--Inclusão de produtos no cartrinho, inserindo resultados em uma planilha (Teste B)
-
-//Tenho que fazer 
-- Se der tempo configurar relatório allure report
-- Se der tempo configurar CI para relatório de cobertura e informar na documentação
-
-
-//Não estou conseguindo fazer
-Inclusão de pedido com verificação do ID do pedido
-
+        - Este teste foi penssado em um fluxo de compras, onde o usuário faz de várias formas a inclusão dos produtos no carrinho. 
+        
 Teste B
-- Incluir resultados com cypress em uma planilha
-        Site de compras
-        Nome do produto
-        Valor á vista
-        Valor do cashback
+- Inclusão de produtos no cartrinho, inserindo resultados em uma planilha
+                - Nome do site de compras
+                - Nome dos produtos
+                - Valor total
+                - Valor de cada produto
+                - Valor do frete
 
-- Se der tempo configurar no formato de page opbjects
+
+
+----------------------------------------------------------------------------
+- O Melhor cenário para se criar os testes, seria para cada testes, o sistema não deveria depender de outro teste, no caso refazer todo o passo a passo apra testar uma determinada Página, com isso usa-se mocks, passando os dados necessários e acessando diretamente a URl, ou API. Porém devido ao tempo, fiz de uma forma mais simples para conseguir abordar mais testes e mais configurações que tenho conhecimento e que são importante serem implantados em um projeto
+- Outro ponto importante a se identificar, seria configurar as rotas, para conseguir fazer os testes com uso nas APIs
+- Outro ponto na empresa é seguir um padrão de projeto, ou BDD com cucumber caso é seja necessário, o que neste projeto não se aplica.

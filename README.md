@@ -48,6 +48,7 @@ OBS: Instalação da versão 6.8.0 pois está bem estável. Outro motivo é que 
 ### Resultados obtidos no desafio
 
 - Site de compras utilizado: [automationpractice.com](http://automationpractice.com/)
+
 - Casos de teste criados: [Casos de teste](https://github.com/QuintilianoNery/DesafioQA/blob/origin/arquivos/casosDeTeste.txt)
 
 - Configuração e uso do Allure-Report: [Allure Report](https://github.com/QuintilianoNery/DesafioQA/blob/origin/arquivos/configuracaoAllure-Report.md)

@@ -2,8 +2,10 @@
 
 //A URL padrão está configurada em cypress.json
 //Grupo de testes relacionados 
-describe('Produtos no carrinho da Automationpractice', () => {
-    //Caso de teste individual
+
+//Em todo o fluxo de compra, para cada página existe uma determinada validação, que faz e auxilia a garantia de que o produto correto está sendo selecionado
+describe('Inclusão de produtos Automationpractice', () => {
+    //Este teste foi realizado para identificar o "Caminho feliz" de um processo completo de compras.
     it('Inclusão de produto no carrinho com conclusão de pedido', () => {
         //comando personalizado em supports/commands
         cy.backgroundLogin();
@@ -123,6 +125,7 @@ describe('Produtos no carrinho da Automationpractice', () => {
             .should('eq', 'http://automationpractice.com/index.php')
     });
 
+    //Este teste foi criado para validar a inclusão normal de um produto no carrinho seguido da exclusão, o que pode ocorrer com noemalidade em um fluxo de compras
     it('Inclusão de um produto no carrinho com exclusão de produto', () => {
         //comando personalizado em supports/commands
         cy.backgroundLogin();
@@ -205,6 +208,7 @@ describe('Produtos no carrinho da Automationpractice', () => {
 
     });
 
+    //Este teste foi penssado em um fluxo de compras, onde o usuário faz de várias formas a inclusão dos produtos no carrinho. 
     it('Inclusão de produto no carrinho com escolha de mais produtos', () => {
         //comando personalizado em supports/commands
         cy.backgroundLogin();
@@ -366,6 +370,5 @@ describe('Produtos no carrinho da Automationpractice', () => {
         cy.get('a[title="Proceed to checkout"]')
             .click()
     });
-
 
 });
