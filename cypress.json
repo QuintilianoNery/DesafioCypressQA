@@ -1,4 +1,5 @@
 {
-    "baseUrl":"http://automationpractice.com",
-    "experimentalStudio":true
+  "baseUrl": "http://automationpractice.com",
+  "experimentalStudio": true,
+  "projectId": "qu5dum"
 }
