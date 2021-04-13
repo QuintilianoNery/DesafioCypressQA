@@ -19,7 +19,7 @@ Teste A
         
 Teste B
 - Inclusão de produtos no cartrinho, inserindo resultados em uma planilha
-                - Nome do site de compras
+                - Site de compras
                 - Nome dos produtos
                 - Valor total
                 - Valor de cada produto
