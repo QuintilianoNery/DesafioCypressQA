@@ -220,7 +220,7 @@ describe('Inclusão de produtos Automationpractice', () => {
         cy.url()
             .should('contain', '/index.php');
 
-        //Setando variável com nome do produto1
+        //Setando variável com nome dos produtos
         let nomeProduto1 = 'Faded Short Sleeve T-shirts';
         let nomeProduto2 = 'Printed Chiffon Dress';
         let nomeProduto3 = 'Blouse';
