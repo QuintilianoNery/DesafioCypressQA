@@ -1,7 +1,7 @@
 Organizar projeto:
 - Criar testes base - OK
-- Criar teste que insira resultado em uma planilha (Específico)
-- Criar testes que gere valor para o "produto" projeto - Análise de risco
+- Criar teste que insira resultado em uma planilha - OK
+- Criar testes que gere valor para o "produto" projeto - Análise de risco (Caso dê tempo)
 - Criar relatório Allure - OK
 - Criar CI - OK
 - Criar Cypress dashboard - OK
@@ -19,7 +19,6 @@ Teste A
         
 Teste B
 - Inclusão de produtos no cartrinho, inserindo resultados em uma planilha
-                - Site de compras
                 - Nome dos produtos
                 - Valor total
                 - Valor de cada produto
