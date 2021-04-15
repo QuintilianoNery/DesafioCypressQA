@@ -1,53 +1,53 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "Inclusão de produto no carrinho com conclusão de pedido",
-    "uid" : "e89ca9c5325e3eb1",
+    "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
+    "uid" : "f61808598f18cd95",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1618454936215,
-      "stop" : 1618454958468,
-      "duration" : 22253
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Inclusão de um produto no carrinho com exclusão de produto",
-    "uid" : "a64f6958a03eb632",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1618454958610,
-      "stop" : 1618454967315,
-      "duration" : 8705
+      "start" : 1618455737954,
+      "stop" : 1618455756149,
+      "duration" : 18195
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Inclusão de produtos no cartrinho, inserindo resultados em uma planilha",
-    "uid" : "b3b6f2b87bbf30bc",
+    "uid" : "cb709e430ffcedbe",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1618455000625,
-      "stop" : 1618455031494,
-      "duration" : 30869
+      "start" : 1618455769067,
+      "stop" : 1618455788549,
+      "duration" : 19482
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
-    "uid" : "716d5eb2e4b5c554",
+    "name" : "Inclusão de produto no carrinho com conclusão de pedido",
+    "uid" : "12704775cdef669e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1618454967359,
-      "stop" : 1618454985392,
-      "duration" : 18033
+      "start" : 1618455709158,
+      "stop" : 1618455728375,
+      "duration" : 19217
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Inclusão de um produto no carrinho com exclusão de produto",
+    "uid" : "9248c9f93773a5dd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618455728528,
+      "stop" : 1618455737877,
+      "duration" : 9349
     },
     "flaky" : false,
     "newFailed" : false,
