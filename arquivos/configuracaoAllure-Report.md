@@ -1,4 +1,4 @@
-#### Allure Report ####
+# Allure Report #
 
 Link:
 - [Allure Commandline](https://www.npmjs.com/package/allure-commandline "allure-commandline")
@@ -40,7 +40,7 @@ npm i -D @shelex/cypress-allure-plugin
 
 -----
 
-#Para executar localmente o relatório Allure, deve-se seguir os seguintes passos: 
+## Para executar localmente o relatório Allure, deve-se seguir os seguintes passos: ##
 
 - Executar comando para capturar resultados dos testes
 
