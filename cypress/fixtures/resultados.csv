@@ -1,3 +1,32 @@
-{
-  "valorTotalDaCompra": "$61.91"
-}
+[
+  {
+    "nome": "Faded Short Sleeve T-shirts",
+    "quantidade": 1,
+    "valorUnitario": 16.51,
+    "valorTotal": 16.51
+  },
+  {
+    "nome": "Printed Chiffon Dress",
+    "quantidade": 1,
+    "valorUnitario": 16.4,
+    "valorTotal": 16.4
+  },
+  {
+    "nome": "Blouse",
+    "quantidade": 1,
+    "valorUnitario": 27,
+    "valorTotal": 27
+  },
+  {
+    "somaTotalDosProdutos": 59.91
+  },
+  {
+    "valorDoEnvio": 2
+  },
+  {
+    "valorDoImposto": 0
+  },
+  {
+    "valorDaCompra": 61.91
+  }
+]
