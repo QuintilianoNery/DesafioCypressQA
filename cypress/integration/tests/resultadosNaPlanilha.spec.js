@@ -163,11 +163,13 @@ describe('', () => {
             .click()
 
         /**----------------------------------------------------------------------------------- */
+
+        // Declaração de constante com o caminho do arquivo CSV
         const pathCSV = 'cypress/fixtures/resultados.csv';
         //Nesta parte do projeto de teste, o cypress irá capturar os textos das telas com o invoke e inserir em uma planilha
         //Declarando variáveis 
 
-        //Variável produto
+        //matríz que permite inserir os valores recebidos
         let produtos = []
         //Variável prduto 1
         let produto1 = {
@@ -180,7 +182,6 @@ describe('', () => {
         cy.get('p[class="product-name"] a[href*="id_product=1&controller=product#/size-s/color-orange"]')
             //pegando as informações tipo texto
             .invoke('text').then(nomeProduto1 => {
-                cy.log(nomeProduto1)
                 //produto recebe o valor de nomeProduto1
                 produto1.nome = nomeProduto1
             })
@@ -188,7 +189,6 @@ describe('', () => {
         // - Valor unitário produto1
         cy.get('span[id="product_price_1_1_0"] [class="price"]')
             .invoke('text').then(valorUnitarioProduto1 => {
-                cy.log(valorUnitarioProduto1)
                 //Transportmando o valor unitário em float e removendo o $
                 produto1.valorUnitario = parseFloat(valorUnitarioProduto1.replace('$', ''))
                 //Fazendo cálculo do valor total do produto 1
@@ -198,7 +198,6 @@ describe('', () => {
         // - Quantidade produto1
         cy.get('input[name="quantity_1_1_0_0"]')
             .invoke('val').then(quantidadeProduto1 => {
-                cy.log(quantidadeProduto1)
                 //Transportmando o valor unitário em float
                 produto1.quantidade = parseFloat(quantidadeProduto1)
                 //Fazendo cálculo do valor total do produto 1
@@ -208,6 +207,7 @@ describe('', () => {
         produtos.push(produto1)
 
         /**----------------------------------------------------------------------------------- */
+        //Variável produto2
         let produto2 = {
             nome: '',
             quantidade: 0,
@@ -218,14 +218,12 @@ describe('', () => {
         //Produto2
         cy.get('p[class="product-name"] a[href*="id_product=7&controller=product#/size-s/color-yellow"]')
             .invoke('text').then(nomeProduto2 => {
-                cy.log(nomeProduto2)
                 produto2.nome = nomeProduto2
             })
 
         // - Valor unitário produto2
         cy.get('span[id="product_price_7_34_0"] [class="price special-price"]')
             .invoke('text').then(valorUnitarioProduto2 => {
-                cy.log(valorUnitarioProduto2)
                 produto2.valorUnitario = parseFloat(valorUnitarioProduto2.replace('$', ''))
                 //Calculando o valor total do produto 2
                 produto2.valorTotal = produto2.quantidade * produto2.valorUnitario
@@ -234,7 +232,6 @@ describe('', () => {
         // - Quantidade produto2
         cy.get('input[name="quantity_7_34_0_0"]')
             .invoke('val').then(quantidadeProduto2 => {
-                cy.log(quantidadeProduto2)
                 produto2.quantidade = parseFloat(quantidadeProduto2)
                 //Calculando o valor total do produto 2
                 produto2.valorTotal = produto2.quantidade * produto2.valorUnitario
@@ -243,6 +240,7 @@ describe('', () => {
         produtos.push(produto2)
 
         /**----------------------------------------------------------------------------------- */
+        //Variável produto3
         let produto3 = {
             nome: '',
             quantidade: 0,
@@ -254,14 +252,13 @@ describe('', () => {
         //Produto3
         cy.get('p[class="product-name"] a[href*="id_product=2&controller=product#/size-s/color-black"]')
             .invoke('text').then(nomeProduto3 => {
-                cy.log(nomeProduto3)
+                // o replace permite tratar a saída do valor
                 produto3.nome = (nomeProduto3.replace('\n\t\t\t\t\t\t', '').replace('\n\t\t\t\t\tBlouse', ''))
             })
 
         // - Valor unitário produto3
         cy.get('span[id="product_price_2_7_0"] [class="price"]')
             .invoke('text').then(valorUnitarioProduto3 => {
-                cy.log(valorUnitarioProduto3)
                 produto3.valorUnitario = parseFloat(valorUnitarioProduto3.replace('$', ''))
                 //Calculando o valor total do produto 3
                 produto3.valorTotal = produto3.quantidade * produto3.valorUnitario
@@ -275,6 +272,7 @@ describe('', () => {
                 produto3.valorTotal = produto3.quantidade * produto3.valorUnitario
             })
 
+        //Envio para a matriz o valor de produto3
         produtos.push(produto3)
 
 
@@ -284,60 +282,67 @@ describe('', () => {
             somaTotalDosProdutos: 0
         }
 
-        // - Total dos produtos
+        // totalDosProdutos
         cy.get('td[id="total_product"]')
             .invoke('text').then(valorTotalDosProdutos => {
-                cy.log(valorTotalDosProdutos)
+                //cálculo da soma do dotal dos produtos
                 totalDosProdutos.somaTotalDosProdutos = (produto1.valorTotal + produto2.valorTotal + produto3.valorTotal)
             })
 
+        //Envio para a matriz o valor de totalDosProdutos
         produtos.push(totalDosProdutos);
 
         /**----------------------------------------------------------------------------------- */
-        //Variável totalDosProdutos
+        //Variável totalDoEnvio
         let totalDoEnvio = {
             valorDoEnvio: 0
         }
 
-        // - Total do envio
+        // totalDoEnvio
         cy.get('td[id="total_shipping"]')
             .invoke('text').then(valorTotalDoEnvio => {
-                cy.log(valorTotalDoEnvio)
+
+                //Atributo  valorDoEnvio recebendo o valor contido no invoke
                 totalDoEnvio.valorDoEnvio = parseFloat(valorTotalDoEnvio.replace('$', ''))
             })
+
+        //Envio para a matriz o valor de totalDoEnvio
         produtos.push(totalDoEnvio);
 
         /**----------------------------------------------------------------------------------- */
-        //Variável totalDosProdutos
+        //Variável totalDosImpostos
         let totalDosImpostos = {
             valorDoImposto: 0
         }
 
-
-        // - Total dos impostos
+        // totalDosImpostos
         cy.get('td[id="total_tax"]')
             .invoke('text').then(valorTotalDosImpostos => {
-                cy.log(valorTotalDosImpostos)
+
+                //Atributo  valorDoImposto recebendo o valor contido no invoke
                 totalDosImpostos.valorDoImposto = parseFloat(valorTotalDosImpostos.replace('$', ''))
             })
 
+        //Envio para a matriz o valor de totalDosImpostos
         produtos.push(totalDosImpostos);
 
         /**----------------------------------------------------------------------------------- */
-        //Variável totalDosProdutos
+        //Variável totalDaCompra
         let totalDaCompra = {
             valorDaCompra: 0
         }
 
-        // - Valor total da compra
+        // totalDaCompra
         cy.get('span[id="total_price"]')
             .invoke('text').then(valorTotalDaCompra => {
-                cy.log(valorTotalDaCompra)
+                //Atributo  valorDaCompra recebendo o valor contido no invoke
                 totalDaCompra.valorDaCompra = parseFloat(valorTotalDaCompra.replace('$', ''))
             })
 
-            //
+        //Envio para a matriz o valor de totalDaCompra
         produtos.push(totalDaCompra);
+
+        /**----------------------------------------------------------------------------------- */
         //Envio dos resultados para uma planilha 
         cy.writeFile(pathCSV, produtos)
     });

@@ -1,11 +1,10 @@
 /// <reference types="cypress" />
 
 //A URL padrão está configurada em cypress.json
-//Grupo de testes relacionados 
 
 //Em todo o fluxo de compra, para cada página existe uma determinada validação, que faz e auxilia a garantia de que o produto correto está sendo selecionado
 describe('Inclusão de produtos Automationpractice', () => {
-    //Este teste foi realizado para identificar o "Caminho feliz" de um processo completo de compras.
+    //Este teste foi realizado para identificar o processo completo de compras.
     it('Inclusão de produto no carrinho com conclusão de pedido', () => {
         //comando personalizado em supports/commands
         cy.backgroundLogin();
