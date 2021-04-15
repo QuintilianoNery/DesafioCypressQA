@@ -51,7 +51,7 @@ OBS: Instalação da versão 6.8.0 pois está bem estável. Outro motivo é que 
 
 - Casos de teste criados: [Casos de teste](https://github.com/QuintilianoNery/DesafioQA/blob/origin/arquivos/casosDeTeste.txt)
 
-- OBS: Como informado na documentaçã do cupress, o comando [cy.writeFile](https://docs.cypress.io/api/commands/writefile#Examples) para salvar as informações em um arquivo, só podem ser em dois formatos, txt e JSON, por este motivo a planilha ficou nesse formato exibido no link Resultados.csv
+- OBS: Como informado na documentaçã do cypress, o comando [cy.writeFile](https://docs.cypress.io/api/commands/writefile#Examples) para salvar as informações em um arquivo, só podem ser em dois formatos, txt e JSON, por este motivo a planilha ficou nesse formato exibido no link Resultados.csv
 - Planilha com os resultados da compra: [Resultados.csv](https://github.com/QuintilianoNery/DesafioQA/blob/origin/cypress/fixtures/resultados.csv)
 
 - Configuração e uso do Allure-Report: [Allure Report](https://github.com/QuintilianoNery/DesafioQA/blob/origin/arquivos/configuracaoAllure-Report.md)
