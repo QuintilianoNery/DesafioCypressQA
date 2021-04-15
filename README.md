@@ -51,6 +51,8 @@ OBS: Instalação da versão 6.8.0 pois está bem estável. Outro motivo é que 
 
 - Casos de teste criados: [Casos de teste](https://github.com/QuintilianoNery/DesafioQA/blob/origin/arquivos/casosDeTeste.txt)
 
+- Planilha com os resultados da compra: [Resultados](https://github.com/QuintilianoNery/DesafioQA/blob/origin/cypress/fixtures/resultados.csv)
+
 - Configuração e uso do Allure-Report: [Allure Report](https://github.com/QuintilianoNery/DesafioQA/blob/origin/arquivos/configuracaoAllure-Report.md)
 
 - Relatório no github-pages, através de CI: [Github-pages CI](https://github.com/QuintilianoNery/DesafioQA/deployments/activity_log?environment=github-pages)
