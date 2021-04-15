@@ -1,53 +1,53 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "Inclusão de produtos no cartrinho, inserindo resultados em uma planilha",
-    "uid" : "2474fc647e73b5bd",
+    "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
+    "uid" : "eeba42fe5e1d927e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1618456784462,
-      "stop" : 1618456805123,
-      "duration" : 20661
+      "start" : 1618456852970,
+      "stop" : 1618456873096,
+      "duration" : 20126
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Inclusão de produto no carrinho com conclusão de pedido",
-    "uid" : "ca2faafdeb8631cc",
+    "uid" : "6f4d1752993a6240",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1618456725924,
-      "stop" : 1618456746028,
-      "duration" : 20104
+      "start" : 1618456811966,
+      "stop" : 1618456843077,
+      "duration" : 31111
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Inclusão de produtos no cartrinho, inserindo resultados em uma planilha",
+    "uid" : "1e433e336b6b9cd1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618456891582,
+      "stop" : 1618456914387,
+      "duration" : 22805
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Inclusão de um produto no carrinho com exclusão de produto",
-    "uid" : "2ca911d93f85db6f",
+    "uid" : "616d37c3447df03",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1618456746128,
-      "stop" : 1618456753783,
-      "duration" : 7655
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
-    "uid" : "a2b3830a0e5045db",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1618456753912,
-      "stop" : 1618456771474,
-      "duration" : 17562
+      "start" : 1618456843211,
+      "stop" : 1618456852937,
+      "duration" : 9726
     },
     "flaky" : false,
     "newFailed" : false,
