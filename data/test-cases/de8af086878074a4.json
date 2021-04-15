@@ -1,12 +1,12 @@
 {
-  "uid" : "e5e5955017d763d2",
-  "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
-  "fullName" : "Inclusão de produto no carrinho com escolha de mais produtos",
-  "historyId" : "ba6c68e0da6761e2b71549a0fd539fdb",
+  "uid" : "de8af086878074a4",
+  "name" : "Inclusão de produto no carrinho com conclusão de pedido",
+  "fullName" : "Inclusão de produto no carrinho com conclusão de pedido",
+  "historyId" : "59712fc983c51ba6b0ad3cb51d309cd1",
   "time" : {
-    "start" : 1618457102722,
-    "stop" : 1618457123804,
-    "duration" : 21082
+    "start" : 1618457128989,
+    "stop" : 1618457154788,
+    "duration" : 25799
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "backgroundLogin",
       "time" : {
-        "start" : 1618457102800,
-        "stop" : 1618457102822,
-        "duration" : 22
+        "start" : 1618457129048,
+        "stop" : 1618457129083,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "setCookie (\"PrestaShop-a30a9934ef476d11b6cc3c983616e364\"; \"R6xmma6F4U6edNQuu67M0lYyG4p0n2Uj%2F%2B75zRUmzBWS%2FhpFBJtY0v0dNeXhYw4PbF5cMFyXu%2BagQjT7RandwxjVlDdhpC0yiFq9prxeX7kO25%2BLZrsKuBM7eFYMJDSjKx%2BX0hpaqVOfOTpd6B%2BM%2BnW2AfmOXAjVHSnJ8AXXBTWU70p%2FWkZQu5VE4Ylw15vkFjODpeEzNVqguWv%2BDs7EWAaRTBHlT5oK33RSpBLB5KkX8I5ObdE1tJVERFGGfEWnkdViuhrvuNPqfRS%2F8%2FRfTdC7%2BpTxPsBZXMAPVwd5k0bTeLV%2FNcPKBuMZ51lEsS0r8tspyfSWtGmpQJhUdYcn5rxpreWVe7ZSCS69H%2BCeSGVIlJ1G%2B991po9oiqTiSoyukGYD2pXk%2BAvwRTV1pn0v0ux5Zm0fP%2BUURLVMGshAigU%3D000311\")",
         "time" : {
-          "start" : 1618457102801,
-          "stop" : 1618457102822,
-          "duration" : 21
+          "start" : 1618457129049,
+          "stop" : 1618457129083,
+          "duration" : 34
         },
         "status" : "passed",
         "steps" : [ ],
@@ -47,9 +47,9 @@
     }, {
       "name" : "visit (\"/\")",
       "time" : {
-        "start" : 1618457102822,
-        "stop" : 1618457105171,
-        "duration" : 2349
+        "start" : 1618457129083,
+        "stop" : 1618457132953,
+        "duration" : 3870
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "url",
       "time" : {
-        "start" : 1618457105171,
-        "stop" : 1618457105182,
-        "duration" : 11
+        "start" : 1618457132953,
+        "stop" : 1618457133015,
+        "duration" : 62
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,8 +77,8 @@
     }, {
       "name" : "expected **http://automationpractice.com/index.php** to include **/index.php** assert",
       "time" : {
-        "start" : 1618457105182,
-        "stop" : 1618457105182,
+        "start" : 1618457133015,
+        "stop" : 1618457133015,
         "duration" : 0
       },
       "status" : "passed",
@@ -92,9 +92,9 @@
     }, {
       "name" : "get (\"input[id=search_query_top]\")",
       "time" : {
-        "start" : 1618457105182,
-        "stop" : 1618457105205,
-        "duration" : 23
+        "start" : 1618457133015,
+        "stop" : 1618457133118,
+        "duration" : 103
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "type (\"Faded Short Sleeve T-shirts\")",
       "time" : {
-        "start" : 1618457105205,
-        "stop" : 1618457106064,
-        "duration" : 859
+        "start" : 1618457133118,
+        "stop" : 1618457133896,
+        "duration" : 778
       },
       "status" : "passed",
       "steps" : [ ],
@@ -122,9 +122,9 @@
     }, {
       "name" : "get (\"button[name=submit_search]\")",
       "time" : {
-        "start" : 1618457106064,
-        "stop" : 1618457106071,
-        "duration" : 7
+        "start" : 1618457133896,
+        "stop" : 1618457133915,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457106071,
-        "stop" : 1618457106403,
-        "duration" : 332
+        "start" : 1618457133915,
+        "stop" : 1618457134204,
+        "duration" : 289
       },
       "status" : "passed",
       "steps" : [ ],
@@ -152,8 +152,8 @@
     }, {
       "name" : "--submitting form-- form sub",
       "time" : {
-        "start" : 1618457106403,
-        "stop" : 1618457106403,
+        "start" : 1618457134204,
+        "stop" : 1618457134204,
         "duration" : 0
       },
       "status" : "passed",
@@ -167,8 +167,8 @@
     }, {
       "name" : "--waiting for new page to load-- page load",
       "time" : {
-        "start" : 1618457106403,
-        "stop" : 1618457106403,
+        "start" : 1618457134204,
+        "stop" : 1618457134204,
         "duration" : 0
       },
       "status" : "passed",
@@ -182,9 +182,9 @@
     }, {
       "name" : "get (\"a[title=View]\")",
       "time" : {
-        "start" : 1618457106403,
-        "stop" : 1618457107190,
-        "duration" : 787
+        "start" : 1618457134204,
+        "stop" : 1618457135215,
+        "duration" : 1011
       },
       "status" : "passed",
       "steps" : [ ],
@@ -197,8 +197,8 @@
     }, {
       "name" : "a[title=View] get",
       "time" : {
-        "start" : 1618457107190,
-        "stop" : 1618457107190,
+        "start" : 1618457135215,
+        "stop" : 1618457135215,
         "duration" : 0
       },
       "status" : "passed",
@@ -212,9 +212,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457107190,
-        "stop" : 1618457107419,
-        "duration" : 229
+        "start" : 1618457135215,
+        "stop" : 1618457135510,
+        "duration" : 295
       },
       "status" : "passed",
       "steps" : [ ],
@@ -227,8 +227,8 @@
     }, {
       "name" : "--waiting for new page to load-- page load",
       "time" : {
-        "start" : 1618457107419,
-        "stop" : 1618457107419,
+        "start" : 1618457135506,
+        "stop" : 1618457135506,
         "duration" : 0
       },
       "status" : "passed",
@@ -242,9 +242,9 @@
     }, {
       "name" : "get (\"h1[itemprop=name]\")",
       "time" : {
-        "start" : 1618457107419,
-        "stop" : 1618457108474,
-        "duration" : 1055
+        "start" : 1618457135510,
+        "stop" : 1618457136441,
+        "duration" : 931
       },
       "status" : "passed",
       "steps" : [ ],
@@ -257,8 +257,8 @@
     }, {
       "name" : "h1[itemprop=name] get",
       "time" : {
-        "start" : 1618457108474,
-        "stop" : 1618457108474,
+        "start" : 1618457136441,
+        "stop" : 1618457136441,
         "duration" : 0
       },
       "status" : "passed",
@@ -272,8 +272,8 @@
     }, {
       "name" : "expected **<h1>** to contain text **Faded Short Sleeve T-shirts** assert",
       "time" : {
-        "start" : 1618457108474,
-        "stop" : 1618457108474,
+        "start" : 1618457136441,
+        "stop" : 1618457136441,
         "duration" : 0
       },
       "status" : "passed",
@@ -287,9 +287,9 @@
     }, {
       "name" : "get (\"a.product_quantity_up\")",
       "time" : {
-        "start" : 1618457108474,
-        "stop" : 1618457108495,
-        "duration" : 21
+        "start" : 1618457136441,
+        "stop" : 1618457136466,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
@@ -302,9 +302,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457108495,
-        "stop" : 1618457108771,
-        "duration" : 276
+        "start" : 1618457136466,
+        "stop" : 1618457136725,
+        "duration" : 259
       },
       "status" : "passed",
       "steps" : [ ],
@@ -317,9 +317,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457108771,
-        "stop" : 1618457108924,
-        "duration" : 153
+        "start" : 1618457136725,
+        "stop" : 1618457136923,
+        "duration" : 198
       },
       "status" : "passed",
       "steps" : [ ],
@@ -332,9 +332,9 @@
     }, {
       "name" : "get (\"a.product_quantity_down\")",
       "time" : {
-        "start" : 1618457108924,
-        "stop" : 1618457108947,
-        "duration" : 23
+        "start" : 1618457136923,
+        "stop" : 1618457136945,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
@@ -347,9 +347,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457108947,
-        "stop" : 1618457109166,
-        "duration" : 219
+        "start" : 1618457136945,
+        "stop" : 1618457137246,
+        "duration" : 301
       },
       "status" : "passed",
       "steps" : [ ],
@@ -362,9 +362,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457109166,
-        "stop" : 1618457109383,
-        "duration" : 217
+        "start" : 1618457137246,
+        "stop" : 1618457137452,
+        "duration" : 206
       },
       "status" : "passed",
       "steps" : [ ],
@@ -377,9 +377,9 @@
     }, {
       "name" : "get (\"a[id=color_14]\")",
       "time" : {
-        "start" : 1618457109384,
-        "stop" : 1618457109398,
-        "duration" : 14
+        "start" : 1618457137452,
+        "stop" : 1618457137518,
+        "duration" : 66
       },
       "status" : "passed",
       "steps" : [ ],
@@ -392,9 +392,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457109398,
-        "stop" : 1618457109691,
-        "duration" : 293
+        "start" : 1618457137518,
+        "stop" : 1618457137904,
+        "duration" : 386
       },
       "status" : "passed",
       "steps" : [ ],
@@ -407,8 +407,8 @@
     }, {
       "name" : "http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve+T-shirts&results=1#/size-s/color-blue new url",
       "time" : {
-        "start" : 1618457109691,
-        "stop" : 1618457109691,
+        "start" : 1618457137904,
+        "stop" : 1618457137904,
         "duration" : 0
       },
       "status" : "passed",
@@ -422,9 +422,9 @@
     }, {
       "name" : "get (\"a[id=color_13]\")",
       "time" : {
-        "start" : 1618457109691,
-        "stop" : 1618457109730,
-        "duration" : 39
+        "start" : 1618457137904,
+        "stop" : 1618457137931,
+        "duration" : 27
       },
       "status" : "passed",
       "steps" : [ ],
@@ -437,9 +437,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457109730,
-        "stop" : 1618457110015,
-        "duration" : 285
+        "start" : 1618457137931,
+        "stop" : 1618457138156,
+        "duration" : 225
       },
       "status" : "passed",
       "steps" : [ ],
@@ -452,8 +452,8 @@
     }, {
       "name" : "http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve+T-shirts&results=1#/size-s/color-orange new url",
       "time" : {
-        "start" : 1618457110015,
-        "stop" : 1618457110015,
+        "start" : 1618457138156,
+        "stop" : 1618457138156,
         "duration" : 0
       },
       "status" : "passed",
@@ -467,9 +467,9 @@
     }, {
       "name" : "get (\"button[name=Submit]\")",
       "time" : {
-        "start" : 1618457110015,
-        "stop" : 1618457110035,
-        "duration" : 20
+        "start" : 1618457138156,
+        "stop" : 1618457138178,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
@@ -482,9 +482,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457110035,
-        "stop" : 1618457110333,
-        "duration" : 298
+        "start" : 1618457138178,
+        "stop" : 1618457138454,
+        "duration" : 276
       },
       "status" : "passed",
       "steps" : [ ],
@@ -495,10 +495,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST http://automationpractice.com/index.php?rand=1618457110229",
+      "name" : "POST http://automationpractice.com/index.php?rand=1618457138350",
       "time" : {
-        "start" : 1618457110333,
-        "stop" : 1618457110333,
+        "start" : 1618457138454,
+        "stop" : 1618457138454,
         "duration" : 0
       },
       "status" : "passed",
@@ -512,9 +512,9 @@
     }, {
       "name" : "get (\".icon-ok\")",
       "time" : {
-        "start" : 1618457110333,
-        "stop" : 1618457110384,
-        "duration" : 51
+        "start" : 1618457138454,
+        "stop" : 1618457138478,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -527,9 +527,9 @@
     }, {
       "name" : "parent (\"\")",
       "time" : {
-        "start" : 1618457110384,
-        "stop" : 1618457110405,
-        "duration" : 21
+        "start" : 1618457138478,
+        "stop" : 1618457138501,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -542,8 +542,8 @@
     }, {
       "name" : "expected **<h2>** to contain text **Product successfully added to your shopping cart** assert",
       "time" : {
-        "start" : 1618457110405,
-        "stop" : 1618457110405,
+        "start" : 1618457138501,
+        "stop" : 1618457138501,
         "duration" : 0
       },
       "status" : "passed",
@@ -557,9 +557,9 @@
     }, {
       "name" : "get (\"span[id=layer_cart_product_title]\")",
       "time" : {
-        "start" : 1618457110405,
-        "stop" : 1618457111101,
-        "duration" : 696
+        "start" : 1618457138501,
+        "stop" : 1618457139292,
+        "duration" : 791
       },
       "status" : "passed",
       "steps" : [ ],
@@ -572,8 +572,8 @@
     }, {
       "name" : "expected **<span#layer_cart_product_title.product-name>** to contain text **Faded Short Sleeve T-shirts** assert",
       "time" : {
-        "start" : 1618457111101,
-        "stop" : 1618457111101,
+        "start" : 1618457139292,
+        "stop" : 1618457139292,
         "duration" : 0
       },
       "status" : "passed",
@@ -587,9 +587,9 @@
     }, {
       "name" : "get (\"span[id=\"layer_cart_product_quantity\"]\")",
       "time" : {
-        "start" : 1618457111101,
-        "stop" : 1618457111169,
-        "duration" : 68
+        "start" : 1618457139292,
+        "stop" : 1618457139321,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ ],
@@ -602,8 +602,8 @@
     }, {
       "name" : "expected **<span#layer_cart_product_quantity>** to contain **'1'** assert",
       "time" : {
-        "start" : 1618457111169,
-        "stop" : 1618457111169,
+        "start" : 1618457139321,
+        "stop" : 1618457139321,
         "duration" : 0
       },
       "status" : "passed",
@@ -617,9 +617,9 @@
     }, {
       "name" : "get (\".button-container a[href$='controller=order']\")",
       "time" : {
-        "start" : 1618457111169,
-        "stop" : 1618457111185,
-        "duration" : 16
+        "start" : 1618457139321,
+        "stop" : 1618457139346,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
@@ -632,9 +632,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457111185,
-        "stop" : 1618457111493,
-        "duration" : 308
+        "start" : 1618457139346,
+        "stop" : 1618457139577,
+        "duration" : 231
       },
       "status" : "passed",
       "steps" : [ ],
@@ -647,8 +647,8 @@
     }, {
       "name" : "--waiting for new page to load-- page load",
       "time" : {
-        "start" : 1618457111493,
-        "stop" : 1618457111493,
+        "start" : 1618457139577,
+        "stop" : 1618457139577,
         "duration" : 0
       },
       "status" : "passed",
@@ -660,11 +660,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "url",
+      "name" : "get (\".cart_navigation a[href$='order&step=1']\")",
       "time" : {
-        "start" : 1618457111493,
-        "stop" : 1618457112640,
-        "duration" : 1147
+        "start" : 1618457139577,
+        "stop" : 1618457141136,
+        "duration" : 1559
       },
       "status" : "passed",
       "steps" : [ ],
@@ -675,56 +675,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "url",
+      "name" : ".cart_navigation a[href$='order&step=1'] get",
       "time" : {
-        "start" : 1618457112640,
-        "stop" : 1618457112640,
+        "start" : 1618457141136,
+        "stop" : 1618457141136,
         "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **http://automationpractice.com/index.php?controller=order** to include **/index.php?controller=order** assert",
-      "time" : {
-        "start" : 1618457112640,
-        "stop" : 1618457112640,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **http://automationpractice.com/index.php?controller=order** to equal **http://automationpractice.com/index.php?controller=order** assert",
-      "time" : {
-        "start" : 1618457112640,
-        "stop" : 1618457112640,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"div[id=header_logo]\")",
-      "time" : {
-        "start" : 1618457112640,
-        "stop" : 1618457112658,
-        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -737,9 +692,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457112658,
-        "stop" : 1618457112938,
-        "duration" : 280
+        "start" : 1618457141136,
+        "stop" : 1618457141363,
+        "duration" : 227
       },
       "status" : "passed",
       "steps" : [ ],
@@ -752,8 +707,8 @@
     }, {
       "name" : "--waiting for new page to load-- page load",
       "time" : {
-        "start" : 1618457112937,
-        "stop" : 1618457112937,
+        "start" : 1618457141363,
+        "stop" : 1618457141363,
         "duration" : 0
       },
       "status" : "passed",
@@ -765,11 +720,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "url",
+      "name" : "get (\"#email\")",
       "time" : {
-        "start" : 1618457112938,
-        "stop" : 1618457114054,
-        "duration" : 1116
+        "start" : 1618457141364,
+        "stop" : 1618457142451,
+        "duration" : 1087
       },
       "status" : "passed",
       "steps" : [ ],
@@ -780,10 +735,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "url",
+      "name" : "#email get",
       "time" : {
-        "start" : 1618457114054,
-        "stop" : 1618457114054,
+        "start" : 1618457142451,
+        "stop" : 1618457142451,
         "duration" : 0
       },
       "status" : "passed",
@@ -795,11 +750,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "expected **http://automationpractice.com/index.php** to include **/index.php** assert",
+      "name" : "type (\"q@qa.com\")",
       "time" : {
-        "start" : 1618457114054,
-        "stop" : 1618457114054,
-        "duration" : 0
+        "start" : 1618457142452,
+        "stop" : 1618457143031,
+        "duration" : 579
       },
       "status" : "passed",
       "steps" : [ ],
@@ -810,11 +765,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "expected **http://automationpractice.com/index.php** to equal **http://automationpractice.com/index.php** assert",
+      "name" : "get (\"#passwd\")",
       "time" : {
-        "start" : 1618457114054,
-        "stop" : 1618457114054,
-        "duration" : 0
+        "start" : 1618457143032,
+        "stop" : 1618457143068,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ ],
@@ -825,11 +780,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get (\"img[title=\"Printed Chiffon Dress\"]\")",
+      "name" : "type (\"12345\")",
       "time" : {
-        "start" : 1618457114054,
-        "stop" : 1618457114101,
-        "duration" : 47
+        "start" : 1618457143068,
+        "stop" : 1618457143450,
+        "duration" : 382
       },
       "status" : "passed",
       "steps" : [ ],
@@ -840,11 +795,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "first",
+      "name" : "get (\"button#SubmitLogin\")",
       "time" : {
-        "start" : 1618457114101,
-        "stop" : 1618457114182,
-        "duration" : 81
+        "start" : 1618457143450,
+        "stop" : 1618457143480,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
@@ -857,9 +812,24 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457114182,
-        "stop" : 1618457114586,
-        "duration" : 404
+        "start" : 1618457143480,
+        "stop" : 1618457143732,
+        "duration" : 252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1618457143732,
+        "stop" : 1618457143732,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -872,8 +842,8 @@
     }, {
       "name" : "--waiting for new page to load-- page load",
       "time" : {
-        "start" : 1618457114586,
-        "stop" : 1618457114586,
+        "start" : 1618457143732,
+        "stop" : 1618457143732,
         "duration" : 0
       },
       "status" : "passed",
@@ -885,11 +855,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get (\"h1[itemprop=name]\")",
+      "name" : "get (\"input[id=addressesAreEquals]\")",
       "time" : {
-        "start" : 1618457114586,
-        "stop" : 1618457116245,
-        "duration" : 1659
+        "start" : 1618457143732,
+        "stop" : 1618457145613,
+        "duration" : 1881
       },
       "status" : "passed",
       "steps" : [ ],
@@ -900,10 +870,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "h1[itemprop=name] get",
+      "name" : "input[id=addressesAreEquals] get",
       "time" : {
-        "start" : 1618457116245,
-        "stop" : 1618457116245,
+        "start" : 1618457145613,
+        "stop" : 1618457145613,
         "duration" : 0
       },
       "status" : "passed",
@@ -915,25 +885,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "contains (\"Printed Chiffon Dress\")",
+      "name" : "expected **<input#addressesAreEquals>** to have attribute **checked** with the value **checked** assert",
       "time" : {
-        "start" : 1618457116245,
-        "stop" : 1618457116292,
-        "duration" : 47
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **<h1>** to have text **Printed Chiffon Dress** assert",
-      "time" : {
-        "start" : 1618457116292,
-        "stop" : 1618457116292,
+        "start" : 1618457145613,
+        "stop" : 1618457145613,
         "duration" : 0
       },
       "status" : "passed",
@@ -945,10 +900,25 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "expected **<h1>** to contain text **Printed Chiffon Dress** assert",
+      "name" : "get (\"input[id=addressesAreEquals]\")",
       "time" : {
-        "start" : 1618457116292,
-        "stop" : 1618457116292,
+        "start" : 1618457145614,
+        "stop" : 1618457145643,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<input#addressesAreEquals>** to have attribute **name** with the value **same** assert",
+      "time" : {
+        "start" : 1618457145643,
+        "stop" : 1618457145643,
         "duration" : 0
       },
       "status" : "passed",
@@ -960,115 +930,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get (\"img[title=\"Printed Chiffon Dress\"]\")",
+      "name" : "get (\"button[name=processAddress]\")",
       "time" : {
-        "start" : 1618457116292,
-        "stop" : 1618457116360,
-        "duration" : 68
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "first",
-      "time" : {
-        "start" : 1618457116360,
-        "stop" : 1618457116377,
-        "duration" : 17
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1618457116377,
-        "stop" : 1618457116887,
-        "duration" : 510
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"a[class=\"fancybox-nav fancybox-next\"]\")",
-      "time" : {
-        "start" : 1618457116887,
-        "stop" : 1618457117172,
-        "duration" : 285
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1618457117172,
-        "stop" : 1618457117486,
-        "duration" : 314
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"a[title=\"Close\"]\")",
-      "time" : {
-        "start" : 1618457117486,
-        "stop" : 1618457117777,
-        "duration" : 291
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1618457117778,
-        "stop" : 1618457118044,
-        "duration" : 266
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"p[id=add_to_cart] button[type=submit]\")",
-      "time" : {
-        "start" : 1618457118044,
-        "stop" : 1618457118075,
+        "start" : 1618457145643,
+        "stop" : 1618457145674,
         "duration" : 31
       },
       "status" : "passed",
@@ -1082,219 +947,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457118075,
-        "stop" : 1618457118716,
-        "duration" : 641
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST http://automationpractice.com/index.php?rand=1618457118648",
-      "time" : {
-        "start" : 1618457118716,
-        "stop" : 1618457118716,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\".icon-ok\")",
-      "time" : {
-        "start" : 1618457118716,
-        "stop" : 1618457118766,
-        "duration" : 50
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "parent (\"\")",
-      "time" : {
-        "start" : 1618457118766,
-        "stop" : 1618457118814,
-        "duration" : 48
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **<h2>** to contain text **Product successfully added to your shopping cart** assert",
-      "time" : {
-        "start" : 1618457118814,
-        "stop" : 1618457118814,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"span[id=layer_cart_product_title]\")",
-      "time" : {
-        "start" : 1618457118814,
-        "stop" : 1618457119253,
-        "duration" : 439
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **<span#layer_cart_product_title.product-name>** to contain text **Printed Chiffon Dress** assert",
-      "time" : {
-        "start" : 1618457119252,
-        "stop" : 1618457119252,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"span[id=\"layer_cart_product_quantity\"]\")",
-      "time" : {
-        "start" : 1618457119253,
-        "stop" : 1618457119292,
-        "duration" : 39
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **<span#layer_cart_product_quantity>** to contain **'1'** assert",
-      "time" : {
-        "start" : 1618457119292,
-        "stop" : 1618457119292,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"span[title=\"Continue shopping\"]\")",
-      "time" : {
-        "start" : 1618457119293,
-        "stop" : 1618457119332,
-        "duration" : 39
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1618457119332,
-        "stop" : 1618457119604,
-        "duration" : 272
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input[id=search_query_top]\")",
-      "time" : {
-        "start" : 1618457119604,
-        "stop" : 1618457119625,
-        "duration" : 21
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "type (\"Blouse\")",
-      "time" : {
-        "start" : 1618457119625,
-        "stop" : 1618457119936,
-        "duration" : 311
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"button[name=submit_search]\")",
-      "time" : {
-        "start" : 1618457119936,
-        "stop" : 1618457120047,
-        "duration" : 111
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1618457120047,
-        "stop" : 1618457120451,
-        "duration" : 404
+        "start" : 1618457145674,
+        "stop" : 1618457146129,
+        "duration" : 455
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1307,8 +962,8 @@
     }, {
       "name" : "--submitting form-- form sub",
       "time" : {
-        "start" : 1618457120451,
-        "stop" : 1618457120451,
+        "start" : 1618457146128,
+        "stop" : 1618457146128,
         "duration" : 0
       },
       "status" : "passed",
@@ -1322,8 +977,8 @@
     }, {
       "name" : "--waiting for new page to load-- page load",
       "time" : {
-        "start" : 1618457120451,
-        "stop" : 1618457120451,
+        "start" : 1618457146129,
+        "stop" : 1618457146129,
         "duration" : 0
       },
       "status" : "passed",
@@ -1335,11 +990,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get (\"a[title=\"Add to cart\"][data-id-product=\"2\"]\")",
+      "name" : "get (\"input[id=cgv]\")",
       "time" : {
-        "start" : 1618457120451,
-        "stop" : 1618457121560,
-        "duration" : 1109
+        "start" : 1618457146129,
+        "stop" : 1618457146985,
+        "duration" : 856
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1350,11 +1005,41 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "a[title=\"Add to cart\"][data-id-product=\"2\"] get",
+      "name" : "input[id=cgv] get",
       "time" : {
-        "start" : 1618457121560,
-        "stop" : 1618457121560,
+        "start" : 1618457146985,
+        "stop" : 1618457146985,
         "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check",
+      "time" : {
+        "start" : 1618457146985,
+        "stop" : 1618457147275,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"button[name=processCarrier]\")",
+      "time" : {
+        "start" : 1618457147275,
+        "stop" : 1618457147343,
+        "duration" : 68
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1367,9 +1052,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1618457121560,
-        "stop" : 1618457121855,
-        "duration" : 295
+        "start" : 1618457147343,
+        "stop" : 1618457147704,
+        "duration" : 361
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1380,146 +1065,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST http://automationpractice.com/index.php?rand=1618457121785",
+      "name" : "--submitting form-- form sub",
       "time" : {
-        "start" : 1618457121855,
-        "stop" : 1618457121855,
+        "start" : 1618457147704,
+        "stop" : 1618457147704,
         "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\".icon-ok\")",
-      "time" : {
-        "start" : 1618457121855,
-        "stop" : 1618457121908,
-        "duration" : 53
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "parent (\"\")",
-      "time" : {
-        "start" : 1618457121908,
-        "stop" : 1618457121941,
-        "duration" : 33
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **<h2>** to contain text **Product successfully added to your shopping cart** assert",
-      "time" : {
-        "start" : 1618457121941,
-        "stop" : 1618457121941,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"span[id=layer_cart_product_title]\")",
-      "time" : {
-        "start" : 1618457121941,
-        "stop" : 1618457122622,
-        "duration" : 681
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **<span#layer_cart_product_title.product-name>** to contain text **Blouse** assert",
-      "time" : {
-        "start" : 1618457122622,
-        "stop" : 1618457122622,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"span[id=\"layer_cart_product_quantity\"]\")",
-      "time" : {
-        "start" : 1618457122622,
-        "stop" : 1618457122679,
-        "duration" : 57
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **<span#layer_cart_product_quantity>** to contain **'1'** assert",
-      "time" : {
-        "start" : 1618457122679,
-        "stop" : 1618457122679,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"a[title=\"Proceed to checkout\"]\")",
-      "time" : {
-        "start" : 1618457122679,
-        "stop" : 1618457122722,
-        "duration" : 43
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1618457122722,
-        "stop" : 1618457123023,
-        "duration" : 301
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1532,8 +1082,293 @@
     }, {
       "name" : "--waiting for new page to load-- page load",
       "time" : {
-        "start" : 1618457123023,
-        "stop" : 1618457123023,
+        "start" : 1618457147704,
+        "stop" : 1618457147704,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".bankwire\")",
+      "time" : {
+        "start" : 1618457147704,
+        "stop" : 1618457148611,
+        "duration" : 907
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : ".bankwire get",
+      "time" : {
+        "start" : 1618457148611,
+        "stop" : 1618457148611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1618457148611,
+        "stop" : 1618457148924,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1618457148924,
+        "stop" : 1618457148924,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".cart_navigation button[type=submit]\")",
+      "time" : {
+        "start" : 1618457148924,
+        "stop" : 1618457150069,
+        "duration" : 1145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : ".cart_navigation button[type=submit] get",
+      "time" : {
+        "start" : 1618457150068,
+        "stop" : 1618457150068,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "find (\"span\")",
+      "time" : {
+        "start" : 1618457150069,
+        "stop" : 1618457150100,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"I confirm my order\")",
+      "time" : {
+        "start" : 1618457150100,
+        "stop" : 1618457150137,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1618457150137,
+        "stop" : 1618457150543,
+        "duration" : 406
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1618457150543,
+        "stop" : 1618457150543,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1618457150543,
+        "stop" : 1618457150543,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"div[id=header_logo]\")",
+      "time" : {
+        "start" : 1618457150543,
+        "stop" : 1618457152850,
+        "duration" : 2307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "div[id=header_logo] get",
+      "time" : {
+        "start" : 1618457152850,
+        "stop" : 1618457152850,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1618457152850,
+        "stop" : 1618457153139,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1618457153139,
+        "stop" : 1618457153139,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1618457153139,
+        "stop" : 1618457154782,
+        "duration" : 1643
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1618457154782,
+        "stop" : 1618457154782,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **http://automationpractice.com/index.php** to include **/index.php** assert",
+      "time" : {
+        "start" : 1618457154782,
+        "stop" : 1618457154782,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **http://automationpractice.com/index.php** to equal **http://automationpractice.com/index.php** assert",
+      "time" : {
+        "start" : 1618457154782,
+        "stop" : 1618457154782,
         "duration" : 0
       },
       "status" : "passed",
@@ -1547,7 +1382,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 102,
+    "stepsCount" : 91,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -1570,6 +1405,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e5e5955017d763d2.json",
+  "source" : "de8af086878074a4.json",
   "parameterValues" : [ ]
 }
