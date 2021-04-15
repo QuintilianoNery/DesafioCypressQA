@@ -37,6 +37,11 @@ npm i -D @shelex/cypress-allure-plugin
             import '@shelex/cypress-allure-plugin';
             require('@shelex/cypress-allure-plugin');
 ```
+
+-----
+
+#Para executar localmente o relatório Allure, deve-se seguir os seguintes passos: 
+
 - Executar comando para capturar resultados dos testes
 
 ```shell
