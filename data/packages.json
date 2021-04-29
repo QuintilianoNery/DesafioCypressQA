@@ -2,52 +2,52 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
     "name" : "Inclusão de produto no carrinho com conclusão de pedido",
-    "uid" : "eea8805b452ce2c3",
+    "uid" : "4523113de38ae114",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1618457423650,
-      "stop" : 1618457456921,
-      "duration" : 33271
+      "start" : 1619702825873,
+      "stop" : 1619702847313,
+      "duration" : 21440
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Inclusão de um produto no carrinho com exclusão de produto",
-    "uid" : "aab97d62c6c32796",
+    "uid" : "e5fcafbe584863",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1618457457028,
-      "stop" : 1618457467845,
-      "duration" : 10817
+      "start" : 1619702847451,
+      "stop" : 1619702860895,
+      "duration" : 13444
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
-    "uid" : "13f67150af986ebc",
+    "uid" : "521bbe817e2f174b",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1618457467960,
-      "stop" : 1618457494375,
-      "duration" : 26415
+      "start" : 1619702860946,
+      "stop" : 1619702885182,
+      "duration" : 24236
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Inclusão de produtos no cartrinho, inserindo resultados em uma planilha",
-    "uid" : "f26fd1675793089e",
+    "uid" : "ceab3c36fad1aa60",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1618457518476,
-      "stop" : 1618457542396,
-      "duration" : 23920
+      "start" : 1619702903198,
+      "stop" : 1619702926216,
+      "duration" : 23018
     },
     "flaky" : false,
     "newFailed" : false,
