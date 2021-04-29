@@ -1,5 +1,4 @@
 <h1 align="center">Projeto: DesafioQA utilizando Cypress </h1>
-<p align="center">Repositório específico para realizar os testes do desafio de Analista de Testes da empresa [Paschoalotto](https://www.paschoalotto.com.br/).</p>
 
 <p align="center"><img src="DesafioQA.png" width="100%"/></p>
 
