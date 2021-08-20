@@ -40,8 +40,8 @@ jobs:
         - run: npx cypress run --config video=true --env allure=true --browser chrome --record --key 98823ca3-4caa-4eeb-8ac8-60354526b410
 
           #Geração do relatório em HTML allure-report
-        - name: Allure report
-          uses: afiore/action-allure-report@v0.1.0
+        - name: Allure report V2
+          uses: QuintilianoNery/action-allure-report-V2@0.2.0
           with:
             results-dir: allure-results
             report-dir: allure-report
