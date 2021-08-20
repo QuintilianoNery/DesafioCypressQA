@@ -1,40 +1,40 @@
 [ {
-  "uid" : "e5fcafbe584863",
+  "uid" : "30685d8ffff2a364",
   "name" : "Inclusão de um produto no carrinho com exclusão de produto",
   "time" : {
-    "start" : 1619702847451,
-    "stop" : 1619702860895,
-    "duration" : 13444
+    "start" : 1629427270323,
+    "stop" : 1629427279347,
+    "duration" : 9024
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "521bbe817e2f174b",
-  "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
-  "time" : {
-    "start" : 1619702860946,
-    "stop" : 1619702885182,
-    "duration" : 24236
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ceab3c36fad1aa60",
-  "name" : "Inclusão de produtos no cartrinho, inserindo resultados em uma planilha",
-  "time" : {
-    "start" : 1619702903198,
-    "stop" : 1619702926216,
-    "duration" : 23018
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4523113de38ae114",
+  "uid" : "1be2a03938f8effe",
   "name" : "Inclusão de produto no carrinho com conclusão de pedido",
   "time" : {
-    "start" : 1619702825873,
-    "stop" : 1619702847313,
-    "duration" : 21440
+    "start" : 1629427248359,
+    "stop" : 1629427270238,
+    "duration" : 21879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14291e21a6c61750",
+  "name" : "Inclusão de produtos no cartrinho, inserindo resultados em uma planilha",
+  "time" : {
+    "start" : 1629427317579,
+    "stop" : 1629427340072,
+    "duration" : 22493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b97ee6cf7b40204",
+  "name" : "Inclusão de produto no carrinho com escolha de mais produtos",
+  "time" : {
+    "start" : 1629427279404,
+    "stop" : 1629427299119,
+    "duration" : 19715
   },
   "status" : "passed",
   "severity" : "normal"
