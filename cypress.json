@@ -1,5 +1,7 @@
 {
+  "$schema": "https://on.cypress.io/cypress.schema.json",
   "baseUrl": "http://automationpractice.com",
   "experimentalStudio": true,
-  "projectId": "qu5dum"
+  "projectId": "qu5dum",
+  "video": true
 }
